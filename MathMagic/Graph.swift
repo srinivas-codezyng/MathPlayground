@@ -19,7 +19,6 @@ struct Graph: View {
                 geo.scaleGrid( xGrid: geo.scaleXGrid(by: scaleX * 0.1), yGrid: geo.scaleYGrid(by: scaleY * 0.1), color: Color.lightGreen)
                 geo.scaleGrid( xGrid: geo.scaleXGrid(by: scaleX * 0.5), yGrid: geo.scaleYGrid(by: scaleY * 0.5), color: Color.semiLightGreen)
                 geo.scaleGrid( xGrid: geo.scaleXGrid(by: scaleX), yGrid: geo.scaleYGrid(by: scaleY), color: Color.darkGreen)
-              
 
             }
         }

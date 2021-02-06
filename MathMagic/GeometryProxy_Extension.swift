@@ -34,11 +34,11 @@ extension GeometryProxy {
     }
     
     var leftX : CGFloat{
-        -quadrantWidth //floor(/ scaleX) * scaleX
+        floor(-quadrantWidth / scaleX) * scaleX
     }
     
     var rightX : CGFloat{
-        quadrantWidth //ceil(/ scaleX) * scaleX
+        ceil(quadrantWidth / scaleX) * scaleX
     }
     
     var leftY : CGFloat {

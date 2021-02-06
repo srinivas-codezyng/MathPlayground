@@ -11,7 +11,10 @@ import SwiftUI
 struct MathMagicApp: App {
     var body: some Scene {
         WindowGroup {
-            Graph()
+            ZStack{
+                Graph()
+                AxisDrawing()
+            }
         }
     }
 }
