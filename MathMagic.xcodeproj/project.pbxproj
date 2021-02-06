@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC189B6925CEA13500D04CB5 /* GeometryProxy_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B6825CEA13500D04CB5 /* GeometryProxy_Extension.swift */; };
+		AC189B6D25CEA17700D04CB5 /* GraphColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B6C25CEA17700D04CB5 /* GraphColor.swift */; };
 		AC43389825CCF6AA0016F5A6 /* MathMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43389725CCF6AA0016F5A6 /* MathMagicApp.swift */; };
-		AC43389A25CCF6AA0016F5A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43389925CCF6AA0016F5A6 /* ContentView.swift */; };
+		AC43389A25CCF6AA0016F5A6 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43389925CCF6AA0016F5A6 /* Graph.swift */; };
 		AC43389C25CCF6AE0016F5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC43389B25CCF6AE0016F5A6 /* Assets.xcassets */; };
 		AC43389F25CCF6AE0016F5A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC43389E25CCF6AE0016F5A6 /* Preview Assets.xcassets */; };
 		AC4338AD25CE50080016F5A6 /* Vector3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4338AC25CE50080016F5A6 /* Vector3D.swift */; };
@@ -26,9 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC189B6825CEA13500D04CB5 /* GeometryProxy_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryProxy_Extension.swift; sourceTree = "<group>"; };
+		AC189B6C25CEA17700D04CB5 /* GraphColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphColor.swift; sourceTree = "<group>"; };
 		AC43389425CCF6AA0016F5A6 /* MathMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC43389725CCF6AA0016F5A6 /* MathMagicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathMagicApp.swift; sourceTree = "<group>"; };
-		AC43389925CCF6AA0016F5A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AC43389925CCF6AA0016F5A6 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
 		AC43389B25CCF6AE0016F5A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC43389E25CCF6AE0016F5A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC4338A025CCF6AE0016F5A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -80,11 +84,13 @@
 			children = (
 				AC4338AB25CE4FF70016F5A6 /* Vector */,
 				AC43389725CCF6AA0016F5A6 /* MathMagicApp.swift */,
-				AC43389925CCF6AA0016F5A6 /* ContentView.swift */,
+				AC43389925CCF6AA0016F5A6 /* Graph.swift */,
 				AC43389B25CCF6AE0016F5A6 /* Assets.xcassets */,
 				AC4338A025CCF6AE0016F5A6 /* Info.plist */,
 				AC4338A125CCF6AE0016F5A6 /* MathMagic.entitlements */,
 				AC43389D25CCF6AE0016F5A6 /* Preview Content */,
+				AC189B6825CEA13500D04CB5 /* GeometryProxy_Extension.swift */,
+				AC189B6C25CEA17700D04CB5 /* GraphColor.swift */,
 			);
 			path = MathMagic;
 			sourceTree = "<group>";
@@ -214,7 +220,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4338AD25CE50080016F5A6 /* Vector3D.swift in Sources */,
-				AC43389A25CCF6AA0016F5A6 /* ContentView.swift in Sources */,
+				AC189B6D25CEA17700D04CB5 /* GraphColor.swift in Sources */,
+				AC43389A25CCF6AA0016F5A6 /* Graph.swift in Sources */,
+				AC189B6925CEA13500D04CB5 /* GeometryProxy_Extension.swift in Sources */,
 				AC43389825CCF6AA0016F5A6 /* MathMagicApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
