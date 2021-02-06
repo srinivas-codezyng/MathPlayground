@@ -81,6 +81,22 @@ extension GeometryProxy {
         }
     }
     
+    var xAxisPoints:[CGPoint]{
+        return stride(from: leftX, to: rightX, by: scaleX).map { (xValue) in
+            CGPoint(x: xValue, y: 0)
+        }
+    }
+    
+    var yAxisPoints:[CGPoint]{
+        return stride(from: bottomY, to: topY, by: scaleY).map { (yValue) in
+            CGPoint(x: 0, y: yValue)
+        }
+    }
+    
+    var axespoints : [CGPoint] {
+        return xAxisPoints + yAxisPoints
+    }
+    
     var xAxis: CGRect {
         CGRect(x: leftX, y: leftY, width: (rightX - leftX), height: 1)
     }
@@ -90,7 +106,7 @@ extension GeometryProxy {
     }
     
     var axesTransform:CGAffineTransform {
-        CGAffineTransform(translationX: 0, y: height).scaledBy(x: 1, y: -1).translatedBy(x: quadrantWidth, y: quadrantHeight)
+        CGAffineTransform(translationX: 0, y: height).scaledBy(x: 1, y: -1).translatedBy(x: quadrantWidth, y: quadrantHeight)//.scaledBy(x: 1, y: -1)
     }
 }
 
@@ -102,5 +118,11 @@ extension GeometryProxy {
         }.stroke( lineWidth: 1.0)
         .transform(axesTransform)
         .foregroundColor(color)
+    }
+}
+
+extension CGPoint : Identifiable{
+    public var id: String {
+        "\(x):\(y)"
     }
 }
