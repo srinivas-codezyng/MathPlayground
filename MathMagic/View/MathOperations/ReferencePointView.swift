@@ -10,8 +10,8 @@ import SwiftUI
 struct ReferencePointView: View {
     @EnvironmentObject var calculatorView:VectorCalculator
     var body: some View {
-        VStack{
-            Text("Reference Point:")
+        VStack(alignment:HorizontalAlignment.leading){
+            Text("Start Point:")
             HStack{
                 Text("X:")
                 TextField("X", value: $calculatorView.referencePoint.x, formatter: NumberFormatter())
