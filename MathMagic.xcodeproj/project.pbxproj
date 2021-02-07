@@ -10,6 +10,8 @@
 		AC189B6925CEA13500D04CB5 /* GeometryProxy_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B6825CEA13500D04CB5 /* GeometryProxy_Extension.swift */; };
 		AC189B6D25CEA17700D04CB5 /* GraphColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B6C25CEA17700D04CB5 /* GraphColor.swift */; };
 		AC189B7125CEA5FB00D04CB5 /* AxisDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B7025CEA5FB00D04CB5 /* AxisDrawing.swift */; };
+		AC189B7525CEDE8900D04CB5 /* VectorDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B7425CEDE8900D04CB5 /* VectorDrawing.swift */; };
+		AC189B7925CEEA8800D04CB5 /* VectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B7825CEEA8800D04CB5 /* VectorViewModel.swift */; };
 		AC43389825CCF6AA0016F5A6 /* MathMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43389725CCF6AA0016F5A6 /* MathMagicApp.swift */; };
 		AC43389A25CCF6AA0016F5A6 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43389925CCF6AA0016F5A6 /* Graph.swift */; };
 		AC43389C25CCF6AE0016F5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC43389B25CCF6AE0016F5A6 /* Assets.xcassets */; };
@@ -32,6 +34,8 @@
 		AC189B6825CEA13500D04CB5 /* GeometryProxy_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeometryProxy_Extension.swift; sourceTree = "<group>"; };
 		AC189B6C25CEA17700D04CB5 /* GraphColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphColor.swift; sourceTree = "<group>"; };
 		AC189B7025CEA5FB00D04CB5 /* AxisDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisDrawing.swift; sourceTree = "<group>"; };
+		AC189B7425CEDE8900D04CB5 /* VectorDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorDrawing.swift; sourceTree = "<group>"; };
+		AC189B7825CEEA8800D04CB5 /* VectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorViewModel.swift; sourceTree = "<group>"; };
 		AC43389425CCF6AA0016F5A6 /* MathMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC43389725CCF6AA0016F5A6 /* MathMagicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathMagicApp.swift; sourceTree = "<group>"; };
 		AC43389925CCF6AA0016F5A6 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 				AC189B6825CEA13500D04CB5 /* GeometryProxy_Extension.swift */,
 				AC189B6C25CEA17700D04CB5 /* GraphColor.swift */,
 				AC189B7025CEA5FB00D04CB5 /* AxisDrawing.swift */,
+				AC189B7425CEDE8900D04CB5 /* VectorDrawing.swift */,
+				AC189B7825CEEA8800D04CB5 /* VectorViewModel.swift */,
 			);
 			path = MathMagic;
 			sourceTree = "<group>";
@@ -227,7 +233,9 @@
 				AC189B6D25CEA17700D04CB5 /* GraphColor.swift in Sources */,
 				AC43389A25CCF6AA0016F5A6 /* Graph.swift in Sources */,
 				AC189B6925CEA13500D04CB5 /* GeometryProxy_Extension.swift in Sources */,
+				AC189B7525CEDE8900D04CB5 /* VectorDrawing.swift in Sources */,
 				AC43389825CCF6AA0016F5A6 /* MathMagicApp.swift in Sources */,
+				AC189B7925CEEA8800D04CB5 /* VectorViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

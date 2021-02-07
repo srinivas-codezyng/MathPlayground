@@ -25,5 +25,37 @@ class MathMagicUnitTests: XCTestCase {
         XCTAssert(vector[.y] == 2)
         XCTAssert(vector[.z] == 3)
     }
+    
+    func testVector3DArrayMultiply() throws {
+//        let hello = Hello() * Hello()
+        let vector:Vector3D<Float> = [100,200,300]
+
+        let multiplied =  vector * 2
+
+        XCTAssert(multiplied[.x] == 200)
+        XCTAssert(multiplied[.y] == 400)
+        XCTAssert(multiplied[.z] == 600)
+    }
+    
+    func testVector3DArrayChangeDirection() throws {
+//        let hello = Hello() * Hello()
+        let vector:Vector3D<Float> = [100,200,300]
+
+        let multiplied =  -vector 
+
+        XCTAssert(multiplied[.x] == -100)
+        XCTAssert(multiplied[.y] == -200)
+        XCTAssert(multiplied[.z] == -300)
+    }
+    
+    
+    func testNormalize() throws {
+//        let hello = Hello() * Hello()
+        let vector:Vector3D<Float> = [10,10,10]
+        
+        let normalized = vector.normalize
+        
+        print("\(normalized)")
+    }
 
 }

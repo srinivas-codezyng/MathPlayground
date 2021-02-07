@@ -9,11 +9,14 @@ import SwiftUI
 
 @main
 struct MathMagicApp: App {
+    @ObservedObject private var viewModel = VectorViewModel()
+
     var body: some Scene {
         WindowGroup {
             ZStack{
                 Graph()
                 AxisDrawing()
+                VectorDrawing().environmentObject(viewModel)
             }
         }
     }
