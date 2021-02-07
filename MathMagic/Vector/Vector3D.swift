@@ -14,7 +14,7 @@ public enum Dimension {
 }
 
 public struct Vector3D<ValueType:FloatingPoint> {
-    private var x:ValueType = 0,y:ValueType = 0,z:ValueType = 0
+    public var x:ValueType = 0,y:ValueType = 0,z:ValueType = 0
     
     public init(x:ValueType,y:ValueType,z:ValueType) {
         self.x = x

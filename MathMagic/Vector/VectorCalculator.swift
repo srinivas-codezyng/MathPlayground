@@ -7,7 +7,9 @@
 
 import SwiftUI
 
-class VectorViewModel: ObservableObject {
+class VectorCalculator: ObservableObject {
+    @Published var referenceX = "100"
+    @Published var referenceY = "100"
+
     @Published var referencePoint:Vector3D<Float> = [200,200,0]
-    
 }

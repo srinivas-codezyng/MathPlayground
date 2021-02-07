@@ -11,7 +11,10 @@
 		AC189B6D25CEA17700D04CB5 /* GraphColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B6C25CEA17700D04CB5 /* GraphColor.swift */; };
 		AC189B7125CEA5FB00D04CB5 /* AxisDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B7025CEA5FB00D04CB5 /* AxisDrawing.swift */; };
 		AC189B7525CEDE8900D04CB5 /* VectorDrawing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B7425CEDE8900D04CB5 /* VectorDrawing.swift */; };
-		AC189B7925CEEA8800D04CB5 /* VectorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B7825CEEA8800D04CB5 /* VectorViewModel.swift */; };
+		AC189B7925CEEA8800D04CB5 /* VectorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B7825CEEA8800D04CB5 /* VectorCalculator.swift */; };
+		AC189B7D25CF8FAE00D04CB5 /* MultiplyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B7C25CF8FAE00D04CB5 /* MultiplyView.swift */; };
+		AC189B8125CF8FCF00D04CB5 /* MathOperationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B8025CF8FCF00D04CB5 /* MathOperationView.swift */; };
+		AC189B8B25CF967E00D04CB5 /* ReferencePointView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC189B8A25CF967E00D04CB5 /* ReferencePointView.swift */; };
 		AC43389825CCF6AA0016F5A6 /* MathMagicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43389725CCF6AA0016F5A6 /* MathMagicApp.swift */; };
 		AC43389A25CCF6AA0016F5A6 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC43389925CCF6AA0016F5A6 /* Graph.swift */; };
 		AC43389C25CCF6AE0016F5A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC43389B25CCF6AE0016F5A6 /* Assets.xcassets */; };
@@ -35,7 +38,10 @@
 		AC189B6C25CEA17700D04CB5 /* GraphColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphColor.swift; sourceTree = "<group>"; };
 		AC189B7025CEA5FB00D04CB5 /* AxisDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AxisDrawing.swift; sourceTree = "<group>"; };
 		AC189B7425CEDE8900D04CB5 /* VectorDrawing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorDrawing.swift; sourceTree = "<group>"; };
-		AC189B7825CEEA8800D04CB5 /* VectorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorViewModel.swift; sourceTree = "<group>"; };
+		AC189B7825CEEA8800D04CB5 /* VectorCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VectorCalculator.swift; sourceTree = "<group>"; };
+		AC189B7C25CF8FAE00D04CB5 /* MultiplyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplyView.swift; sourceTree = "<group>"; };
+		AC189B8025CF8FCF00D04CB5 /* MathOperationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathOperationView.swift; sourceTree = "<group>"; };
+		AC189B8A25CF967E00D04CB5 /* ReferencePointView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferencePointView.swift; sourceTree = "<group>"; };
 		AC43389425CCF6AA0016F5A6 /* MathMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MathMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC43389725CCF6AA0016F5A6 /* MathMagicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MathMagicApp.swift; sourceTree = "<group>"; };
 		AC43389925CCF6AA0016F5A6 /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
@@ -67,6 +73,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC189B8625CF946100D04CB5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AC189B8925CF965A00D04CB5 /* MathOperations */,
+				AC43389925CCF6AA0016F5A6 /* Graph.swift */,
+				AC189B6C25CEA17700D04CB5 /* GraphColor.swift */,
+				AC189B7025CEA5FB00D04CB5 /* AxisDrawing.swift */,
+				AC189B7425CEDE8900D04CB5 /* VectorDrawing.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AC189B8925CF965A00D04CB5 /* MathOperations */ = {
+			isa = PBXGroup;
+			children = (
+				AC189B7C25CF8FAE00D04CB5 /* MultiplyView.swift */,
+				AC189B8025CF8FCF00D04CB5 /* MathOperationView.swift */,
+				AC189B8A25CF967E00D04CB5 /* ReferencePointView.swift */,
+			);
+			path = MathOperations;
+			sourceTree = "<group>";
+		};
 		AC43388B25CCF6AA0016F5A6 = {
 			isa = PBXGroup;
 			children = (
@@ -88,18 +116,14 @@
 		AC43389625CCF6AA0016F5A6 /* MathMagic */ = {
 			isa = PBXGroup;
 			children = (
+				AC189B8625CF946100D04CB5 /* View */,
 				AC4338AB25CE4FF70016F5A6 /* Vector */,
 				AC43389725CCF6AA0016F5A6 /* MathMagicApp.swift */,
-				AC43389925CCF6AA0016F5A6 /* Graph.swift */,
 				AC43389B25CCF6AE0016F5A6 /* Assets.xcassets */,
 				AC4338A025CCF6AE0016F5A6 /* Info.plist */,
 				AC4338A125CCF6AE0016F5A6 /* MathMagic.entitlements */,
 				AC43389D25CCF6AE0016F5A6 /* Preview Content */,
 				AC189B6825CEA13500D04CB5 /* GeometryProxy_Extension.swift */,
-				AC189B6C25CEA17700D04CB5 /* GraphColor.swift */,
-				AC189B7025CEA5FB00D04CB5 /* AxisDrawing.swift */,
-				AC189B7425CEDE8900D04CB5 /* VectorDrawing.swift */,
-				AC189B7825CEEA8800D04CB5 /* VectorViewModel.swift */,
 			);
 			path = MathMagic;
 			sourceTree = "<group>";
@@ -115,6 +139,7 @@
 		AC4338AB25CE4FF70016F5A6 /* Vector */ = {
 			isa = PBXGroup;
 			children = (
+				AC189B7825CEEA8800D04CB5 /* VectorCalculator.swift */,
 				AC4338AC25CE50080016F5A6 /* Vector3D.swift */,
 			);
 			path = Vector;
@@ -234,8 +259,11 @@
 				AC43389A25CCF6AA0016F5A6 /* Graph.swift in Sources */,
 				AC189B6925CEA13500D04CB5 /* GeometryProxy_Extension.swift in Sources */,
 				AC189B7525CEDE8900D04CB5 /* VectorDrawing.swift in Sources */,
+				AC189B8125CF8FCF00D04CB5 /* MathOperationView.swift in Sources */,
+				AC189B8B25CF967E00D04CB5 /* ReferencePointView.swift in Sources */,
+				AC189B7D25CF8FAE00D04CB5 /* MultiplyView.swift in Sources */,
 				AC43389825CCF6AA0016F5A6 /* MathMagicApp.swift in Sources */,
-				AC189B7925CEEA8800D04CB5 /* VectorViewModel.swift in Sources */,
+				AC189B7925CEEA8800D04CB5 /* VectorCalculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
